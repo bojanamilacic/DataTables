@@ -1,0 +1,5 @@
+{{country.name}}
+<span (click) = "toggleDetails()">({{country.states.length}} states)</span>
+<ul [hidden] = "!_detailsVisible">
+  <li *ngFor = "let state of country.states">{{state.name}}</li>
+</ul> 
