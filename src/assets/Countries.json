@@ -1,0 +1,55 @@
+{
+    "countries" : [ {
+        "name": "Russia",
+        "populate" : 146989754
+      }, 
+      {
+        "name": "France",
+        "populate": 64979548
+      },
+      {
+        "name": "Germany",
+        "populate": 82114224
+      },
+      {
+        "name": "Portugal",
+        "populate": 10329506
+      },
+      {
+        "name": "Canada",
+        "populate": 36624199
+      },
+      {
+        "name": "Vietnam",
+        "populate": 95540800
+      },
+      {
+        "name": "Brazil",
+        "populate": 209288278
+      },
+      {
+        "name": "Mexico",
+        "populate": 129163276
+      },
+      {
+        "name": "United States",
+        "populate": 324459463
+      },
+      {
+        "name": "India",
+        "populate": 1324171354
+      },
+      {
+        "name": "Indonesia",
+        "populate": 263991379
+      },
+      {
+        "name": "Tuvalu",
+        "populate": 11097
+      },
+      {
+        "name": "China",
+        "populate": 1409517397
+      }
+    ]
+}  
