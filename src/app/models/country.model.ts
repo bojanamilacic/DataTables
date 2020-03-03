@@ -1,6 +1,6 @@
-export interface CountryModel{
-    id?: number;
-    name: string;
-    population: number;
+export class CountryModel{
+    public id?: number;
+    public name: string;
+    public populate: number;
 
 }

@@ -7,14 +7,13 @@ import { CountryModel } from '../models/country.model';
   providedIn: 'root'
 })
 export class CountriesService {
-  url = "./assets/Countries.json";
-  countries: CountryModel
+   url = "./assets/Countries.json";
+   public countries: CountryModel[];
   constructor(private http: HttpClient) {
-  }
+ }
 
-  public getCountries(): Observable<any> {
-    return this.http.get(this.url);
+  getCountries(): Observable<any> {
+     return this.http.get(this.url);
   }
-
 }
 

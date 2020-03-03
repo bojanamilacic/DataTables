@@ -8,20 +8,19 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { DatatableComponent } from './datatable/datatable.component';
 import { FormsModule } from '@angular/forms';
-import { DatatableListComponent } from './datatable/datatable-list/datatable-list.component';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core'
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import {MatInputModule,} from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import {MatButtonModule} from '@angular/material/button';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatIconModule} from '@angular/material/icon';
 @NgModule({
   declarations: [
     AppComponent,
     CountryListComponent,
     CountryDetailComponent,
     DatatableComponent,
-    DatatableListComponent
-    
   ],
   imports: [
     BrowserModule,
@@ -32,7 +31,9 @@ import {MatButtonModule} from '@angular/material/button';
     Ng2SearchPipeModule,
     MatInputModule,
     MatFormFieldModule,
-    MatButtonModule
+    MatButtonModule,
+    BrowserAnimationsModule,
+    MatIconModule
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   providers: [],
